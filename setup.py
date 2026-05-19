@@ -8,13 +8,11 @@ __version__ = "0.0.0"
 REPO_NAME ="AgMIC"
 AUTHOR_USER_NAME = "Muhibullah1"
 SRC_REPO = "CNN"
-AUTHOR_EMAIL = "MUHIB@"
 
 setuptools.setup(
     name = SRC_REPO,
     version = __version__,
     author=AUTHOR_USER_NAME,
-    author_email = AUTHOR_EMAIL,
     description = "AGMIC Components",
     long_description = "text/markdown",
     url = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
